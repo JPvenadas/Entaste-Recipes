@@ -5,7 +5,7 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
-  color: black;
+  color: rgb(82, 82, 82);
 }
 body {
   margin: 0;
@@ -40,7 +40,7 @@ nav{
   font-family: 'Cookie';
 }
 .logo span{
-  color: #659207; 
+  color: #46e017; 
 }
 .navlinks-container{
   display: flex;
@@ -51,6 +51,9 @@ nav{
 
 .ham-menu{
   display: none;
+}
+.ham-menu:hover{
+  color: #659207; 
 }
 @media (max-width: 1100px){
   

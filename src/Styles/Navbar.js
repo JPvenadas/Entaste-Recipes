@@ -7,6 +7,7 @@ export const Navlinks = styled.ul`
    align-items: center;
    gap: 40px;
    transition: .5s ease;
+   background-color: white;
 
    @media (max-width: 500px){
     position: absolute;
@@ -14,7 +15,7 @@ export const Navlinks = styled.ul`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
     transform: ${(props)=>props.translate};
    }

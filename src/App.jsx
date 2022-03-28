@@ -6,7 +6,11 @@ const App = () => {
   return (
     <div>
      <Navbar/>
-     
+     <BrowserRouter>
+     <Routes>
+       <Route path="/" index element={<Home/>}></Route>
+     </Routes>
+     </BrowserRouter>
     </div>
   )
 }
