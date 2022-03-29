@@ -15,11 +15,11 @@ const Features = () => {
                   Our Recipes include
               </Title>
               <FeatureSection>
-                <Feature Icon={Icon1} Text='Ingredients'/>
-                <Feature Icon={Icon2} Text='Techniques'/>
-                <Feature Icon={Icon3} Text='Diets'/>
-                <Feature Icon={Icon4} Text='Cautions'/>
-                <Feature Icon={Icon5} Text='Nutritions'/>
+                <Feature Icon={Icon1} Area='P1' Text='Ingredients'/>
+                <Feature Icon={Icon2}  Area='P2' Text='Techniques'/>
+                <Feature Icon={Icon3}  Area='P3' Text='Diets'/>
+                <Feature Icon={Icon4}  Area='P4' Text='Cautions'/>
+                <Feature Icon={Icon5}  Area='P5' Text='Nutritions'/>
               </FeatureSection>
           </Container>
       </MainDiv>

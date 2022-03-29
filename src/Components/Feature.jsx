@@ -1,8 +1,8 @@
 import { FeatureBorder, FeatureIcon, FeatureTitle } from "../Styles/Features"
 
-const Feature = ({Icon, Text}) => {
+const Feature = ({Icon, Text, Area}) => {
   return (
-    <FeatureBorder>
+    <FeatureBorder area={Area}>
         <FeatureIcon src={Icon}>
 
         </FeatureIcon>
