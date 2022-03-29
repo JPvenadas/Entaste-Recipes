@@ -1,5 +1,5 @@
-import { MainDiv, Container, SubContainer,Textbox, Tagline, TagDescription, DescriptiveSection, SearchContainer, Search } from "../Styles/Header"
-import Backgroundd from '../Styles/background.png';
+import { MainDiv, Container,Background, ChangeBackground, SubContainer,Textbox, Tagline, TagDescription, DescriptiveSection, SearchContainer, Search } from "../Styles/Header"
+import Backgroundd from '../Styles/HeaderBackground/4.png';
 import {FaSearch} from "react-icons/fa";
 const Header = () => {
   return (
@@ -25,8 +25,8 @@ const Header = () => {
                 </SearchContainer>
           </DescriptiveSection>
         </SubContainer>
-        <SubContainer background={Backgroundd}>
-
+        <SubContainer justify='center'>
+          <Background animation={ChangeBackground}></Background>
         </SubContainer>
       </Container>
     </MainDiv>

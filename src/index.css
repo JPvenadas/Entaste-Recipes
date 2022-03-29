@@ -18,6 +18,11 @@ nav{
   justify-content: center;
   align-items: center;
   box-shadow: 0px 0px 4px gray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
 }
 .navbar-container{
   display: flex;
