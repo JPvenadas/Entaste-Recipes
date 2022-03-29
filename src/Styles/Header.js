@@ -38,7 +38,7 @@ export const Container = styled.div`
     }
 `
 export const SubContainer = styled.div`
-    width: 800px;
+    width: 700px;
     max-width: 100%;
     height: 100%;
     display: flex;
@@ -157,8 +157,8 @@ export const ChangeBackground = keyframes`
 56%{background: url('${background5}')  no-repeat;background-size: 100%;}
 68%{background: url('${background5}')  no-repeat;background-size: 100%;}
 72%{background: url('${background6}')  no-repeat;background-size: 100%;}
-92%{background: url('${background6}')  no-repeat;background-size: 100%;}
-96%{background: url('${background1}')  no-repeat;background-size: 100%;}
+86%{background: url('${background6}')  no-repeat;background-size: 100%;}
+90%{background: url('${background1}')  no-repeat;background-size: 100%;}
 100%{background: url('${background1}')  no-repeat;background-size: 100%;};
 
 `
