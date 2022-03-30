@@ -41,7 +41,7 @@ export const FeatureSection = styled.div`
     }
 `
 export const FeatureBorder = styled.div`
-    width: 146px;
+    width: 156px;
     height: 120px;
     background: #FFFFFF;
     border-radius: 25px;
@@ -69,8 +69,8 @@ export const FeatureTitle = styled.h3`
     }
 `
 export const FeatureIcon = styled.img`
-    width: 80px;
-    height: 58px;
+    width: 70px;
+    height: 48px;
     @media (max-width: 700px) {
         width: 60px;
         height: 40px;

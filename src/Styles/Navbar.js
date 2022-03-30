@@ -9,7 +9,7 @@ export const Navlinks = styled.ul`
    transition: .5s ease;
    background-color: white;
 
-   @media (max-width: 500px){
+   @media (max-width: 700px){
     position: absolute;
     top: 65px;
     flex-direction: column;

@@ -52,13 +52,15 @@ export const SubContainer = styled.div`
     @media (max-width: 700px){
     justify-content: center;
     min-height: 250px;
+    width: 100%;
     }
 `
 export const Background = styled.div`
     width: 100%;
     height: 100%;
     animation: ${props=>props.animation} 40s infinite;
-   
+    -moz-animation: ${props=>props.animation} 40s infinite;
+    -webkit-animation: ${props=>props.animation} 40s infinite;
     @media (max-width: 700px) {
         width: 400px;
         max-width: 100%;
@@ -85,7 +87,7 @@ export const Tagline = styled.h2`
     font-size: 45px;
     word-spacing: 1.09rem;
     color: #4A4A4A;
-    font-weight: lighter;
+    font-weight: bolder;
     margin-bottom: 20px;
 
     @media (max-width: 1200px){
@@ -99,15 +101,16 @@ export const TagDescription = styled.h3`
     font-size: 17px;
     color: #014200;
     word-spacing: .4rem;
-    width: 480px;
+    width: 400px;
+    font-family: Helvetica;
 
     @media (max-width: 1200px){
     font-size: 15px;
-    width: 400px;
+    width: 350px;
     }
     @media (max-width: 700px){
     width: 100%;
-    max-width: 370px;
+    max-width: 300px;
     }
 `
 export const SearchContainer = styled.div`

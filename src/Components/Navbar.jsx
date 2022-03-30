@@ -16,7 +16,7 @@ const [navstatus, changenavstat] = useState(false)
               </span>
             </div>
             <div className="navlinks-container">
-                  <Navlinks translate={`${navstatus? 'translateX(200%)': 'translateX(0)'}`}>
+                  <Navlinks translate={`${navstatus? 'translateX(0)': 'translateX(200%)'}`}>
                       <li>
                           <a href="">Home</a>
                       </li>
