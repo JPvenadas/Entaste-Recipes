@@ -1,9 +1,10 @@
 import { Items } from "../Styles/Recommendation"
 
-const GridItems = () => {
+
+const GridItems = ({background}) => {
   return (
-    <Items>
-        
+    <Items bg={background}>
+
     </Items>
   )
 }

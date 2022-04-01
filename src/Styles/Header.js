@@ -87,7 +87,7 @@ export const Tagline = styled.h2`
     font-size: 45px;
     word-spacing: 1.09rem;
     color: #4A4A4A;
-    font-weight: bolder;
+    font-weight: normal;
     margin-bottom: 20px;
 
     @media (max-width: 1200px){

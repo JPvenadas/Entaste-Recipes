@@ -41,8 +41,8 @@ export const FeatureSection = styled.div`
     }
 `
 export const FeatureBorder = styled.div`
-    width: 156px;
-    height: 120px;
+    width: 146px;
+    height: 110px;
     background: #FFFFFF;
     border-radius: 25px;
     border: 1px solid #56DB41;
@@ -63,7 +63,7 @@ export const FeatureBorder = styled.div`
 `
 export const FeatureTitle = styled.h3`
     font-weight: normal;
-    font-size: 1rem;
+    font-size: .9rem;
     @media (max-width: 700px) {
        font-size: .7rem;
     }
