@@ -8,7 +8,8 @@ export const Navlinks = styled.ul`
    gap: 40px;
    transition: .5s ease;
    background-color: white;
-
+   z-index: 4;
+   
    @media (max-width: 700px){
     position: absolute;
     top: 65px;
@@ -18,5 +19,6 @@ export const Navlinks = styled.ul`
     height: 100vh;
     width: 100vw;
     transform: ${(props)=>props.translate};
+    z-index: 4;
    }
 `;

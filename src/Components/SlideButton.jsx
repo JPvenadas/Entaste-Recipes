@@ -1,8 +1,9 @@
 import { Btn } from "../Styles/Recommendation"
 
-const SlideButton = ({right, left, icon}) => {
+
+const SlideButton = ({display,right, left, icon, click}) => {
   return (
-   <Btn right={right} left={left}>{icon}</Btn>
+   <Btn display={display} onClick={click} right={right} left={left}>{icon}</Btn>
   )
 }
 

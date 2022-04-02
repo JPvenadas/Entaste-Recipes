@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {FaBars} from "react-icons/fa";
+import {FiGrid} from "react-icons/fi";
 import { Navlinks } from "../Styles/Navbar";
 
 
@@ -27,7 +27,7 @@ const [navstatus, changenavstat] = useState(false)
                           <a href="">About</a>
                       </li>
                   </Navlinks>
-                  <FaBars className="ham-menu" onClick={()=>{changenavstat(!navstatus)}}/>
+                  <FiGrid className="ham-menu" onClick={()=>{changenavstat(!navstatus)}}/>
             </div>
        </div>
    </nav>

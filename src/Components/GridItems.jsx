@@ -1,10 +1,15 @@
-import { Items } from "../Styles/Recommendation"
+import { Items, ItemTitle } from "../Styles/Recommendation"
+import { useState } from "react"
 
 
-const GridItems = ({background}) => {
+const GridItems = ({background, recipe}) => {
+  
+  const [titleStatus, setTitleStatus] = useState(false);
   return (
-    <Items bg={background}>
-
+    <Items onMouseLeave={()=>{setTitleStatus(false)}} onMouseOver={()=>{setTitleStatus(true)}} bg={background}>
+      <ItemTitle opacity={titleStatus? 1: 0} translate={titleStatus? 0: -100}>
+        {recipe}
+      </ItemTitle>
     </Items>
   )
 }
