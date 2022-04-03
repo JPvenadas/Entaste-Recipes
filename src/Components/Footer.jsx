@@ -1,5 +1,11 @@
-import { MainDiv,Title,Links,LinkItem, AboutContainer, Container, About } from "../Styles/Footer"
+import { MainDiv,Title,Links, Dev, DevContainer,LinkItem, DevLinks, DevLink, AboutContainer, Container, About } from "../Styles/Footer"
+import {FaGithub, FaLinkedin, FaFacebook, FaGoogle} from 'react-icons/fa'
+
 const Footer = () => {
+   const icons = {
+       fill: 'white',
+       fontSize: 30
+   }
   return (
    <MainDiv>
           <Container>
@@ -14,9 +20,23 @@ const Footer = () => {
                   </AboutContainer>
                   <AboutContainer>
                         <Title>API Provider</Title>
+                        <Links>
+                          <LinkItem>Rapid API</LinkItem>
+                          <LinkItem>Recipe Search and Diet</LinkItem>
+                      </Links>
                   </AboutContainer>
                   <AboutContainer>
-                        <Title>API Developer</Title>
+                        <Title>Developer</Title>
+                        <DevContainer>
+                            <Dev>Created by Jayphe Venadas</Dev>
+                            <DevLinks>
+                                
+                                <DevLink><FaGithub style={icons}/></DevLink>
+                                <DevLink><FaLinkedin style={icons}/></DevLink>
+                                <DevLink><FaFacebook style={icons}/></DevLink>
+                                <DevLink><FaGoogle style={icons}/></DevLink>
+                            </DevLinks>
+                        </DevContainer>
                   </AboutContainer>
               </About>
           </Container>

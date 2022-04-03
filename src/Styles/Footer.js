@@ -1,19 +1,19 @@
 import styled from 'styled-components'
-
+import {FaGithub, FaLinkedin, FaFacebook, FaGoogle} from 'react-icons/fa'
 export const MainDiv = styled.div`
     width: 100%;
     background: #83B138;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Helvetica;
     
 `
 export const Container = styled.div`
     display: flex;
-    width: 1000px;
-    height: 250px;
+    width: 900px;
+    height: 200px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 `
@@ -45,3 +45,27 @@ export const AboutContainer = styled.div`
     width: 100%;
     flex-direction: column;
 `
+export const Source = styled.div`
+    display: flex;
+`
+export const DevContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+   
+`
+export const Dev = styled.div`
+     color: white;
+     margin: 0 10px 20px 0;
+`
+export const DevLinks = styled.ul`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-top: 2px solid white;
+    padding: 10px
+`
+export const DevLink = styled.li`
+    color: white;
+`
+
